@@ -1,0 +1,374 @@
+ul,
+ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+   
+}
+body{
+    font-family:"Roboto", sans-serif;
+    color: #434455;
+    background-color:#FFFFFF;
+}
+body{
+    display: block;
+}
+h1
+h2
+h3
+h4
+h5
+h6
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,
+ol{
+    margin: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+     max-width: 100%;
+     height: auto;
+}
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+section{
+    display: block;
+}
+div{
+    display: block;
+}
+/* ==================HEADER================== */
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+header {
+    display: block;
+}
+.container{
+width: 1158px;
+padding: 0 15px;
+margin: 0 auto;
+}
+.header-container{
+display: flex;
+align-items: center;
+}
+.page-logo{
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+margin-right: 76px;
+}
+.page-navigation{
+    display: flex;
+    align-items: center;
+}
+
+.text-italic{
+    color:  #2e2f42;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+}
+.menu-link{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: block;
+}
+.menu-link:hover,
+.menu-link:focus
+{
+    color: #404bbf;
+}
+.benefits-list-text{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.contact-list{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+display: flex;
+gap: 40px;
+}
+
+
+.contact-list-link{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.contact-list-link:hover,
+.contact-list-link:focus
+{
+    color: #404bbf;
+}
+.contact-bloc{
+    font-style: normal;
+    margin-left: auto;
+}
+address{
+    display: block;
+}
+/* ===================HERO========================== */
+
+.main-title{
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+max-width: 496px;
+margin: 0 auto 48px auto;
+margin-bottom: 48px;
+}
+.hero-container{
+    width: 1440px;
+height: 600px;
+padding-top: 188px;
+padding-bottom:188px;
+padding-left:15px;
+padding-right:15px;
+}
+.order-service-btn{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5;
+   display: block;
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+min-width: 169px;
+height: 56px;
+border-radius: 4px;
+border: none;
+padding: 16px 32px;
+max-width: 496px;
+margin: 0 auto 48px auto;
+}
+.order-service-btn:hover,
+.order-service-btn:focus
+{
+    background: #404bbf;
+}
+
+.hero{
+    background: #2e2f42;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-box{
+padding: 16px 32px;
+max-width: 496px;
+margin: 0 auto 48px auto;
+}
+/* =====================BENEFITS========================= */
+.benefits-container{
+    display: flex;
+    flex-direction: column;
+}
+.visyall-hidden{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+.benefits-list{
+    display: flex;
+    column-gap: 24px;
+}
+.benefits-list-title{
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.benefits-list-text{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+width: calc((100-72)/4);
+}
+/* ==============OUR TEAM=========================== */
+.our-team{
+    background-color: #F4F4FD
+}
+.section-title{
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+text-transform: capitalize;
+margin-bottom: 72px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.reviews-list-fullname{
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 64px;
+}
+.reviews-list-text{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+}
+.reviews-list-item{
+    width: calc((100%-3*24)/4);
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    padding: 0px 0px 32px 0px;
+}
+.rewiews-list{
+    display: flex;
+    column-gap:24px;
+}
+.reviews-list-avatar{
+    margin-bottom: 32px;
+
+}
+
+/* ======================Our Portfolio======================== */
+.portfolio-container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    width: calc((100%-24)/3);
+}
+.portfolio-list-title{
+    display: flex;
+flex-wrap: wrap;
+gap: 24px;
+width: calc((100%-48px)/3);
+}
+.section-portfolio-title{
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+text-transform: capitalize;
+margin-bottom: 72px;
+}
+.portfolio-list-name{
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.portfolio-item{
+
+background: #fff;
+border-top: none;
+border-bottom: 1px solid #e7e9fc;
+}
+.portfolio-list-text{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* ====================FOOTER====================== */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+  
+}
+.page-footer-title{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+width: 264px;
+}
+footer{
+  
+    background: #2e2f42;
+}
+.page-logo-footer{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+.text-italic-footer{
+    color: #f4f4fd
+}
+.page-footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
