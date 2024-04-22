@@ -50,9 +50,14 @@ div{
 /* ==================HEADER================== */
 .header{
     border-bottom: 1px solid #e7e9fc;
+    
 }
 header {
     display: block;
+    
+}
+.page-header{
+    border-bottom: 1px solid #e7e9fc
 }
 .container{
 width: 1158px;
@@ -93,6 +98,7 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: block;
+    padding: 24px 0;
 }
 .menu-link:hover,
 .menu-link:focus
@@ -179,6 +185,8 @@ border: none;
 padding: 16px 32px;
 max-width: 496px;
 margin: 0 auto 48px auto;
+display: block;
+cursor: pointer; 
 }
 .order-service-btn:hover,
 .order-service-btn:focus
@@ -191,12 +199,9 @@ margin: 0 auto 48px auto;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    padding: 188px 0;
 }
-.button-box{
-padding: 16px 32px;
-max-width: 496px;
-margin: 0 auto 48px auto;
-}
+
 /* =====================BENEFITS========================= */
 .benefits-container{
     display: flex;
@@ -213,10 +218,13 @@ margin: 0 auto 48px auto;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
+       
 }
 .benefits-list{
     display: flex;
     column-gap: 24px;
+    gap: 24px;
+   
 }
 .benefits-list-title{
     font-family: "Roboto", sans-serif;
@@ -225,6 +233,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 .benefits-list-text{
     font-family: "Roboto", sans-serif;
@@ -234,6 +243,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 width: calc((100-72)/4);
+}
+.benefits-list-item{
+    margin-right: 24px;
+    width: calc((100% - 72px) / 4); 
+}
+.last{
+    margin-right: 24px;
 }
 /* ==============OUR TEAM=========================== */
 .our-team{
@@ -261,7 +277,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-margin-bottom: 64px;
+margin-bottom: 8px
 }
 .reviews-list-text{
     font-family: "Roboto", sans-serif;
@@ -271,6 +287,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+
 }
 .reviews-list-item{
     width: calc((100%-3*24)/4);
@@ -278,28 +295,35 @@ color: #434455;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     padding: 0px 0px 32px 0px;
+    margin-right: 24px;
 }
 .rewiews-list{
     display: flex;
-    column-gap:24px;
+    gap:24px;
+
 }
 .reviews-list-avatar{
     margin-bottom: 32px;
 
 }
-
+.last-margin{
+    margin-right: 0;
+}
+.container-name{
+    padding: 32px 0;
+}
 /* ======================Our Portfolio======================== */
 .portfolio-container{
     margin-left: auto;
     margin-right: auto;
     padding-top: 120px;
-    width: calc((100%-24)/3);
+    width: calc((100%-48px) / 3);
 }
 .portfolio-list-title{
     display: flex;
 flex-wrap: wrap;
-gap: 24px;
-width: calc((100%-48px)/3);
+row-gap: 48px; 
+width: calc((100%-48px) / 3);
 }
 .section-portfolio-title{
     font-family: "Roboto", sans-serif;
@@ -319,12 +343,14 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px
 }
 .portfolio-item{
 
 background: #fff;
 border-top: none;
 border-bottom: 1px solid #e7e9fc;
+width: calc((100% - 48px) /3); 
 }
 .portfolio-list-text{
     font-family: "Roboto", sans-serif;
@@ -333,6 +359,11 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+.container-addition{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 /* ====================FOOTER====================== */
@@ -349,6 +380,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
 width: 264px;
+display: inline-block;
+
 }
 footer{
   
@@ -364,9 +397,11 @@ footer{
     color: #4d5ae5;
     margin-bottom: 16px;
     display: inline-block;
+    
 }
 .text-italic-footer{
     color: #f4f4fd
+   
 }
 .page-footer{
     padding-top: 100px;
