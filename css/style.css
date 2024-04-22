@@ -17,12 +17,12 @@ body{
 body{
     display: block;
 }
-h1
-h2
-h3
-h4
-h5
-h6
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p{
     margin-top: 0;
     margin-bottom: 0;
@@ -159,14 +159,7 @@ max-width: 496px;
 margin: 0 auto 48px auto;
 margin-bottom: 48px;
 }
-.hero-container{
-    width: 1440px;
-height: 600px;
-padding-top: 188px;
-padding-bottom:188px;
-padding-left:15px;
-padding-right:15px;
-}
+
 .order-service-btn{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -204,8 +197,7 @@ cursor: pointer;
 
 /* =====================BENEFITS========================= */
 .benefits-container{
-    display: flex;
-    flex-direction: column;
+  
 }
 .visyall-hidden{
         position: absolute;
@@ -222,7 +214,6 @@ cursor: pointer;
 }
 .benefits-list{
     display: flex;
-    column-gap: 24px;
     gap: 24px;
     
    
@@ -246,7 +237,6 @@ color: #434455;
 width: calc((100-72)/4);
 }
 .benefits-list-item{
-    margin-right: 24px;
     width: calc((100% - 72px) / 4); 
 }
 
@@ -294,7 +284,7 @@ color: #434455;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     padding: 0px 0px 32px 0px;
-    margin-right: 24px;
+   
 }
 .rewiews-list{
     display: flex;
@@ -367,12 +357,6 @@ color: #434455;
 }
 
 /* ====================FOOTER====================== */
-.footer-container{
-    display: flex;
-    flex-direction: column;
-   
-  
-}
 .page-footer-title{
     font-family: "Roboto", sans-serif;
 font-weight: 400;
@@ -381,7 +365,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
 width: 264px;
-display: inline-block;
+
 
 }
 footer{
