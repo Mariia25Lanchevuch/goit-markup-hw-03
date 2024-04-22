@@ -224,6 +224,7 @@ cursor: pointer;
     display: flex;
     column-gap: 24px;
     gap: 24px;
+    width: calc((100% - 72px) / 4); 
    
 }
 .benefits-list-title{
@@ -248,9 +249,7 @@ width: calc((100-72)/4);
     margin-right: 24px;
     width: calc((100% - 72px) / 4); 
 }
-.last{
-    margin-right: 24px;
-}
+
 /* ==============OUR TEAM=========================== */
 .our-team{
     background-color: #F4F4FD
@@ -300,7 +299,7 @@ color: #434455;
 .rewiews-list{
     display: flex;
     gap:24px;
-
+    width: calc((100% - 72px) / 4);
 }
 .reviews-list-avatar{
     margin-bottom: 32px;
@@ -322,8 +321,8 @@ color: #434455;
 .portfolio-list-title{
     display: flex;
 flex-wrap: wrap;
-row-gap: 48px; 
-width: calc((100%-48px) / 3);
+row-gap: 24px; 
+width: calc((100% - 48px) / 3); 
 }
 .section-portfolio-title{
     font-family: "Roboto", sans-serif;
@@ -350,7 +349,7 @@ margin-bottom: 8px
 background: #fff;
 border-top: none;
 border-bottom: 1px solid #e7e9fc;
-width: calc((100% - 48px) /3); 
+width: calc((100% - 48px) / 3); 
 }
 .portfolio-list-text{
     font-family: "Roboto", sans-serif;
@@ -406,4 +405,7 @@ footer{
 .page-footer{
     padding-top: 100px;
     padding-bottom: 100px;
+}
+a{
+    display: inline-block;
 }
